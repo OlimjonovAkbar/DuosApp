@@ -6,11 +6,11 @@ import Dashboard from './pages/Dashboard/Dashboard'
 export const App = () => {
   return (
       <>
-      <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Dashboard/>} />
-      </Route>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Dashboard/>} />
+          </Route>
+        </Routes>
       </>
   )
 }

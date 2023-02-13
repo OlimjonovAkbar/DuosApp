@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 
 body{
     font-family: 'Montserrat';
@@ -22,7 +26,6 @@ body .container{
 
 body .container .content{
     padding: 30px 20px;
-    background-color: #fff;
     border-radius: 10px;
 
 }

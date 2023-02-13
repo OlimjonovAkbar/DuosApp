@@ -24,6 +24,15 @@ function Dashboard() {
                 </div>
             </div>
         </div>
+
+        <div className="content options-panel">
+            <div className="options" style={{backgroundColor: 'rgba(255, 45, 45, 0.6)'}}>
+                <span className="option-count">5400000so'm</span>
+            </div>
+            <div className="options" style={{backgroundColor: 'rgba(52, 167, 17, 0.6)'}}>
+                <span className="option-count">5400000so'm</span>
+            </div>
+        </div>
     </div>
   )
 }
